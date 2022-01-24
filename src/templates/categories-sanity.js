@@ -72,7 +72,7 @@ export const pageQuery = graphql`
 `;
 
 const MainContainer = styled.main`
-  background-color: #1d3557;
+  background-color: #b7ded0;
   min-height: 100vh;
   @media (min-width: 769px) {
     grid-column: 2/3;

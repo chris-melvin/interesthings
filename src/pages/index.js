@@ -10,7 +10,7 @@ import { useState } from "react";
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     {
-      allSanityPost(limit: 1, sort: { order: DESC, fields: _createdAt }) {
+      allSanityPost(limit: 5, sort: { order: DESC, fields: _createdAt }) {
         nodes {
           title
           postreference
@@ -31,12 +31,7 @@ const IndexPage = () => {
       }
     }
   `);
-  const {
-    title,
-    categories,
-    body,
-    postreference,
-  } = data.allSanityPost.nodes[0];
+  const allPost = data.allSanityPost.nodes;
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -50,12 +45,17 @@ const IndexPage = () => {
         </Hamburger>
         <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
         <MainContainer>
-          <Card
-            title={title}
-            body={body}
-            categories={categories}
-            postreference={postreference}
-          />
+          <GridContainer>
+            {allPost.map((post) => (
+              <Card
+                title={post.title}
+                categories={post.categories}
+                body={post.body}
+                key={post.title}
+                postreference={post.postreference}
+              />
+            ))}
+          </GridContainer>
         </MainContainer>
       </Container>
     </Layout>
@@ -65,14 +65,13 @@ const IndexPage = () => {
 export default IndexPage;
 
 const MainContainer = styled.main`
-  display: flex;
-  background-color: #1d3557;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  background-color: #b7ded0;
+  min-height: 100vh;
   @media (min-width: 769px) {
     grid-column: 2/3;
+  }
+  @media (max-width: 768px) {
+    padding-top: 2rem;
   }
 `;
 
@@ -94,4 +93,10 @@ const Hamburger = styled.div`
   right: 10px;
   top: 10px;
   z-index: 100;
+`;
+const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem;
 `;

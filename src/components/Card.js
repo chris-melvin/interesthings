@@ -32,24 +32,20 @@ export const Card = ({ title, body, categories, postreference }) => {
   );
 };
 const Container = styled.article`
-  background-color: #f1faee;
-  box-shadow: -10px 10px 0px 10px #a8dadc;
-  margin-left: 30px;
-  margin-right: 10px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  background-color: #fff;
   max-width: 500px;
   padding: 1rem;
   font-family: Helvetica, sans-serif;
+  border-radius: 5px;
 `;
 const Title = styled.h1`
   font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  color: #1d3557;
+  color: #322c2c;
 `;
 
 const Content = styled.p`
   font-size: calc(14px + 6 * ((100vw - 320px) / 680));
-  color: #457b9d;
+  color: #322c2c;
 `;
 
 const LinksContainer = styled.div`
@@ -70,7 +66,7 @@ const Categories = styled(Link)`
   border-radius: 15px;
   padding: 2px 5px;
   margin-right: 0.5rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 12px;
 `;

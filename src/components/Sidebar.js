@@ -37,7 +37,7 @@ export const Sidebar = ({ isOpen, setIsOpen }) => {
 
 const Container = styled.aside`
   position: fixed;
-  background-color: #457b9d;
+  background-color: #71b6e1;
   height: 100vh;
 
   @media (max-width: 768px) {
@@ -86,7 +86,7 @@ const ExternalLinks = styled.div`
   bottom: 1rem;
   transition: all 0.3s ease-in;
   a {
-    color: black;
+    color: white;
     margin-left: 1rem;
   }
 

@@ -56,8 +56,7 @@ const CategoriesPage = () => {
 export default CategoriesPage;
 
 const MainContainer = styled.main`
-  background-color: #1d3557;
-
+  background-color: #b7ded0;
   min-height: 100vh;
   @media (min-width: 769px) {
     grid-column: 2/3;
@@ -87,9 +86,9 @@ const Hamburger = styled.div`
 const CategoryLink = styled(Link)`
   margin: 1rem;
   cursor: pointer;
-  text-align: center;
+  /* text-align: center; */
   text-decoration: none;
-  color: #fff;
+  color: #111;
   transition: all 0.3s ease-in;
   font-size: 1rem;
   font-weight: 700;
@@ -99,13 +98,14 @@ const CategoryLink = styled(Link)`
 `;
 
 const Content = styled.p`
-  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  font-size: calc(12px + 6 * ((100vw - 320px) / 680));
   color: #457b9d;
 `;
 
 const CategoryCard = styled.div`
-  border: 1px solid black;
-  padding: 0.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
 `;
 
 const GridContainer = styled.div`
