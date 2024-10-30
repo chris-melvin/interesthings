@@ -1,0 +1,423 @@
+{
+    "facts": [
+      {
+        "id": 1,
+        "fact": "Honey never spoils",
+        "details": "Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible",
+        "references": [
+          "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/",
+          "https://www.nationalgeographic.com/culture/article/honey-in-the-pyramids"
+        ],
+        "topic": "food",
+        "tag": "preservation"
+      },
+  
+      {
+        "id": 2,
+        "fact": "Octopuses have three hearts",
+        "details": "Two hearts pump blood to the gills, while the third circulates blood to the rest of the body",
+        "references": [
+          "https://oceanservice.noaa.gov/facts/octopus.html",
+          "https://www.scientificamerican.com/article/octopus-arms-think-for-themselves/"
+        ],
+        "topic": "biology",
+        "tag": "marine-life"
+      },
+      {
+        "id": 3,
+        "fact": "The Great Wall of China is not visible from space",
+        "details": "Contrary to popular belief, the Great Wall cannot be seen from low Earth orbit with the naked eye. This myth began in 1932 and continues despite astronaut confirmation",
+        "references": [
+          "https://www.nasa.gov/vision/space/workinginspace/great_wall.html",
+          "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/"
+        ],
+        "topic": "architecture",
+        "tag": "misconceptions"
+      },
+      {
+        "id": 4,
+        "fact": "A banana is technically a berry, but a strawberry isn't",
+        "details": "Botanically, a berry has seeds inside the flesh, while strawberries have seeds on the outside. Bananas, tomatoes, and avocados are true berries",
+        "references": [
+          "https://www.mcgill.ca/oss/article/did-you-know/bananas-are-berries-strawberries-are-not",
+          "https://www.britannica.com/story/is-a-banana-a-fruit-or-a-berry"
+        ],
+        "topic": "botany",
+        "tag": "fruit-classification"
+      },
+      {
+        "id": 5,
+        "fact": "Sloths can hold their breath for up to 40 minutes underwater",
+        "details": "Sloths can slow their heart rate to one-third of its normal rate, allowing them to stay underwater for extended periods",
+        "references": [
+          "https://www.nationalgeographic.com/animals/mammals/facts/three-toed-sloth",
+          "https://www.worldwildlife.org/stories/why-are-sloths-slow-and-other-sloth-facts"
+        ],
+        "topic": "zoology",
+        "tag": "mammals"
+      },
+      {
+        "id": 6,
+        "fact": "The first computer mouse was made of wood",
+        "details": "Invented by Douglas Engelbart in the 1960s, the first computer mouse was made of wood and had only one button",
+        "references": [
+          "https://www.computerhistory.org/revolution/input-output/14/350",
+          "https://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/1968Demo.html"
+        ],
+        "topic": "technology",
+        "tag": "computer-history"
+      },
+      {
+        "id": 7,
+        "fact": "The shortest war in history lasted 38 minutes",
+        "details": "The Anglo-Zanzibar War of 1896 began at 9:02 AM and ended at 9:40 AM, making it the shortest recorded war in history",
+        "references": [
+          "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Shortest-War-in-History/",
+          "https://www.britannica.com/event/Anglo-Zanzibar-War"
+        ],
+        "topic": "history",
+        "tag": "warfare"
+      },
+      {
+        "id": 8,
+        "fact": "Cows have best friends and get stressed when separated",
+        "details": "Studies have shown that cows form close emotional bonds with other cows and experience increased anxiety when separated from their preferred companions",
+        "references": [
+          "https://www.scientificamerican.com/article/scientists-study-cow-friendships-shedding-light-on-human-behavior/",
+          "https://www.psychology.org/resources/animal-cognition/"
+        ],
+        "topic": "animal-behavior",
+        "tag": "social-bonds"
+      },
+      {
+        "id": 9,
+        "fact": "The average cloud weighs 1.1 million pounds",
+        "details": "Clouds appear light and fluffy but are actually made up of millions of water droplets that have significant mass when combined",
+        "references": [
+          "https://www.usgs.gov/special-topics/water-science-school/science/water-atmosphere",
+          "https://www.sciencefocus.com/planet-earth/how-much-does-a-cloud-weigh"
+        ],
+        "topic": "meteorology",
+        "tag": "atmosphere"
+      },
+      {
+        "id": 10,
+        "fact": "Shakespeare invented over 1,700 words",
+        "details": "Many common words like 'assassination', 'swagger', and 'bedroom' were first recorded in Shakespeare's works",
+        "references": [
+          "https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-words/",
+          "https://www.merriam-webster.com/words-at-play/words-shakespeare-invented"
+        ],
+        "topic": "language",
+        "tag": "etymology"
+      },
+      {
+        "id": 11,
+        "fact": "Honeybees can recognize human faces",
+        "details": "Scientists have discovered that honeybees can be trained to recognize individual human faces through pattern recognition",
+        "references": [
+          "https://www.scientificamerican.com/article/face-recognition-honeybees/",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001234"
+        ],
+        "topic": "entomology",
+        "tag": "insect-intelligence"
+      },
+      {
+        "id": 12,
+        "fact": "The first person convicted of speeding was going 8 mph",
+        "details": "In 1896, Walter Arnold was fined for speeding at 8 mph in a 2 mph zone in Kent, England",
+        "references": [
+          "https://www.historic-uk.com/HistoryUK/HistoryofBritain/First-Speeding-Fine/",
+          "https://www.bbc.com/news/uk-england-kent-41164468"
+        ],
+        "topic": "transportation",
+        "tag": "law-history"
+      },
+      {
+        "id": 13,
+        "fact": "A day on Mars is only 37 minutes longer than Earth",
+        "details": "A Martian day, called a sol, is 24 hours, 37 minutes, and 22 seconds long",
+        "references": [
+          "https://mars.nasa.gov/resources/21392/mars-in-a-minute-how-long-is-a-year-on-mars/",
+          "https://www.space.com/16907-what-is-a-day-on-mars.html"
+        ],
+        "topic": "astronomy",
+        "tag": "mars"
+      },
+      {
+        "id": 14,
+        "fact": "The fingerprints of koalas are so similar to humans that they've confused crime scenes",
+        "details": "Koala fingerprints are virtually indistinguishable from human fingerprints, even under an electron microscope",
+        "references": [
+          "https://www.nationalgeographic.com/animals/article/150602-koalas-fingerprints-animals-science-australia",
+          "https://onlinelibrary.wiley.com/doi/abs/10.1111/1556-4029.13627"
+        ],
+        "topic": "biology",
+        "tag": "forensics"
+      },
+      {
+        "fact": "The world's deepest postbox is 10 meters underwater",
+        "details": "Located in Susami, Japan, this underwater postbox receives about 1,500 pieces of mail annually from scuba divers",
+        "references": [
+          "https://www.atlasobscura.com/places/underwater-postbox",
+          "https://www.japan-guide.com/e/e4957.html"
+        ],
+        "topic": "culture",
+        "tag": "unique-places"
+      },
+      {
+        "id": 15,
+        "fact": "A jiffy is an actual unit of time",
+        "details": "In computing, a jiffy is 1/100th of a second. In physics, it's the time it takes light to travel one fermi (about 3×10^-24 seconds)",
+        "references": [
+          "https://physics.nist.gov/cuu/Units/units.html",
+          "https://www.ieee.org/standards/index.html"
+        ],
+        "topic": "physics",
+        "tag": "measurements"
+      },
+      {
+        "id": 16,
+        "fact": "The average person spends 6 months of their lifetime waiting for red lights",
+        "details": "Based on average commute times and life expectancy, people spend approximately 180 days waiting at traffic signals",
+        "references": [
+          "https://www.transportation.gov/mission/health/red-light-running",
+          "https://www.sciencedaily.com/releases/2019/05/190506111821.htm"
+        ],
+        "topic": "transportation",
+        "tag": "daily-life"
+      },
+      {
+        "id": 17,
+        "fact": "Squirrels plant thousands of new trees each year by forgetting where they put their acorns",
+        "details": "Squirrels only recover about 70% of their buried nuts, accidentally contributing to forest growth",
+        "references": [
+          "https://www.nationalgeographic.com/animals/article/150303-animals-food-squirrels-nuts-food-science",
+          "https://www.sciencedaily.com/releases/2017/01/170119111932.htm"
+        ],
+        "topic": "ecology",
+        "tag": "forest-growth"
+      },
+      {
+        "id": 18,
+        "fact": "The first email spam was sent in 1978",
+        "details": "Gary Thuerk sent the first spam email to 400 ARPANET users advertising Digital Equipment Corporation computers",
+        "references": [
+          "https://www.computerhistory.org/internethistory/1970s/",
+          "https://www.templetons.com/brad/spamreact.html"
+        ],
+        "topic": "technology",
+        "tag": "internet-history"
+      },
+      {
+        "id": 19,
+        "fact": "The longest word without a vowel is 'rhythms'",
+        "details": "In standard English, 'rhythms' is the longest word without the traditional vowels (a, e, i, o, u)",
+        "references": [
+          "https://www.merriam-webster.com/dictionary/rhythm",
+          "https://www.oxford-royale.com/articles/english-language-fascinating-facts/"
+        ],
+        "topic": "language",
+        "tag": "words"
+      },
+      {
+        "id": 20,
+        "fact": "A group of flamingos is called a flamboyance",
+        "details": "This collective noun reflects the birds' flamboyant appearance and social behavior",
+        "references": [
+          "https://www.audubon.org/news/15-fun-collective-nouns-describe-groups-birds",
+          "https://www.oxford-dictionary.com/collective-nouns"
+        ],
+        "topic": "zoology",
+        "tag": "collective-nouns"
+      },
+      {
+        "id": 21,
+        "fact": "The Great Pyramid was the tallest man-made structure for 3,800 years",
+        "details": "Built around 2560 BCE, it wasn't surpassed until Lincoln Cathedral's spire in 1311 CE",
+        "references": [
+          "https://www.britannica.com/topic/Great-Pyramid-of-Giza",
+          "https://www.nationalgeographic.com/history/article/giza-pyramids"
+        ],
+        "topic": "architecture",
+        "tag": "ancient-wonders"
+      },
+      {
+        "id": 22,
+        "fact": "The first person to reach both poles was a Norwegian cook",
+        "details": "Olav Bjaaland reached both the North and South poles as a cook on expeditions in the early 1900s",
+        "references": [
+          "https://www.npolar.no/en/person/olav-bjaaland/",
+          "https://www.norwegianamerican.com/polar-explorers/"
+        ],
+        "topic": "exploration",
+        "tag": "polar-expeditions"
+      },
+      {
+        "id": 23,
+        "fact": "A bolt of lightning is five times hotter than the sun's surface",
+        "details": "Lightning can reach temperatures of 50,000°F (27,760°C), while the sun's surface is about 10,000°F (5,500°C)",
+        "references": [
+          "https://www.nasa.gov/centers/goddard/news/topstory/2003/0107lightning.html",
+          "https://www.weather.gov/safety/lightning-temperature"
+        ],
+        "topic": "meteorology",
+        "tag": "natural-phenomena"
+      },
+      {
+        "id": 24,
+        "fact": "The first oranges weren't orange",
+        "details": "The original oranges from Southeast Asia were actually green. The color orange was named after the fruit",
+        "references": [
+          "https://www.sciencedaily.com/releases/2016/02/160211184939.htm",
+          "https://www.etymonline.com/word/orange"
+        ],
+        "topic": "botany",
+        "tag": "food-history"
+      },
+      {
+        "id": 25,
+        "fact": "Penguins have knees",
+        "details": "Penguins have knees, hips, and ankles hidden beneath their feathers, giving them a waddling appearance",
+        "references": [
+          "https://www.antarctica.gov.au/about-antarctica/animals/penguins/",
+          "https://www.nationalgeographic.com/animals/birds/facts/penguins"
+        ],
+        "topic": "zoology",
+        "tag": "bird-anatomy"
+      },
+      {
+        "id": 26,
+        "fact": "The moon has moonquakes",
+        "details": "The moon experiences seismic activity called moonquakes, which can last for hours due to the moon's rigid structure",
+        "references": [
+          "https://science.nasa.gov/science-news/science-at-nasa/2006/15mar_moonquakes",
+          "https://www.space.com/moonquakes-apollo-seismic-data"
+        ],
+        "topic": "astronomy",
+        "tag": "lunar-science"
+      },
+      {
+        "id": 27,
+        "fact": "The inventor of the Pringles can was buried in a Pringles can",
+        "details": "Fredric Baur requested that his ashes be buried in a Pringles can when he died in 2008",
+        "references": [
+          "https://www.history.com/news/the-story-behind-the-pringles-can-burial",
+          "https://www.snopes.com/fact-check/pringles-inventor-burial/"
+        ],
+        "topic": "history",
+        "tag": "unusual-facts"
+      },
+      {
+        "id": 28,
+        "fact": "Bananas are berries but strawberries aren't",
+        "details": "Botanically, bananas qualify as berries while strawberries are actually 'accessory fruits'",
+        "references": [
+          "https://www.britannica.com/story/is-a-banana-a-fruit-or-a-berry",
+          "https://academic.oup.com/botany/article-abstract/95/5/523/2996243"
+        ],
+        "topic": "botany",
+        "tag": "fruit-classification"
+      },
+      {
+        "id": 29,
+        "fact": "The longest time between two twins being born is 87 days",
+        "details": "In 2012, Maria Jones-Elliott gave birth to twins Amy and Katie with an 87-day interval",
+        "references": [
+          "https://www.guinnessworldrecords.com/world-records/67465-longest-interval-between-birth-of-twins",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782526/"
+        ],
+        "topic": "medicine",
+        "tag": "birth-records"
+      },
+      {
+        "id": 30,
+        "fact": "The first computer bug was an actual bug",
+        "details": "In 1947, Grace Hopper found a moth causing problems in the Harvard Mark II computer",
+        "references": [
+          "https://www.nationalgeographic.org/thisday/sep9/worlds-first-computer-bug/",
+          "https://www.computerhistory.org/tdih/september/9/"
+        ],
+        "topic": "technology",
+        "tag": "computer-history"
+      },
+      {
+        "id": 31,
+        "fact": "Polar bears are left-handed",
+        "details": "Studies show that polar bears generally favor their left paw for hunting and tool use",
+        "references": [
+          "https://www.polarbearsinternational.org/news-room/scientists-blog/polar-bear-facts/",
+          "https://www.nationalgeographic.com/animals/mammals/facts/polar-bear"
+        ],
+        "topic": "zoology",
+        "tag": "animal-behavior"
+      },
+      {
+        "id": 32,
+        "fact": "The average person walks the equivalent of five times around the world in their lifetime",
+        "details": "Based on average daily steps, a person walks about 110,000 miles in their lifetime",
+        "references": [
+          "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+          "https://pubmed.ncbi.nlm.nih.gov/21206086/"
+        ],
+        "topic": "health",
+        "tag": "human-activity"
+      },
+      {
+        "id": 33,
+        "fact": "There are more possible iterations of a game of chess than atoms in the universe",
+        "details": "The number of possible chess games is 10^120, while the observable universe has 10^80 atoms",
+        "references": [
+          "https://www.chess.com/article/view/number-possible-chess-games",
+          "https://www.science.org/content/article/how-many-atoms-are-there-universe"
+        ],
+        "topic": "mathematics",
+        "tag": "game-theory"
+      },
+      {
+        "id": 34,
+        "fact": "A day on Venus is longer than its year",
+        "details": "Venus takes 243 Earth days to rotate once but only 225 Earth days to orbit the Sun",
+        "references": [
+          "https://solarsystem.nasa.gov/planets/venus/in-depth/",
+          "https://www.space.com/44-venus-second-planet-from-the-sun-brightest-planet-in-solar-system.html"
+        ],
+        "topic": "astronomy",
+        "tag": "planets"
+      },
+      {
+        "id": 35,
+        "fact": "The longest word typed with just the left hand is 'stewardesses'",
+        "details": "Using standard QWERTY keyboard layout, 'stewardesses' is the longest word typed using only left-hand letters",
+        "references": [
+          "https://www.merriam-webster.com/dictionary/stewardess",
+          "https://www.oxford-royale.com/articles/english-language-fascinating-facts/"
+        ],
+        "topic": "language",
+        "tag": "typing"
+      },
+      {
+        "id": 36,
+        "fact": "Cats can't taste sweetness",
+        "details": "Cats lack the gene needed to taste sweet flavors due to evolutionary dietary habits",
+        "references": [
+          "https://www.scientificamerican.com/article/strange-but-true-cats-cannot-taste-sweets/",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1424733/"
+        ],
+        "topic": "biology",
+        "tag": "animal-senses"
+      },
+      {
+        "id": 37,
+        "fact": "The shortest commercial flight is 1.5 minutes long",
+        "details": "The flight between Westray and Papa Westray in Scotland's Orkney Islands is just 1.5 miles long",
+        "references": [
+          "https://www.guinnessworldrecords.com/world-records/shortest-scheduled-airline-service-",
+          "https://www.bbc.com/news/uk-scotland-north-east-orkney-shetland-39374767"
+        ],
+        "topic": "transportation",
+        "tag": "aviation"
+      }
+    ]
+  }
+  
