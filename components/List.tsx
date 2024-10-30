@@ -15,7 +15,7 @@ const List = ({
     <div className="flex flex-col items-center gap-4">
       {funFact.map((fact) => (
         <FunFactCard
-          key={fact.id}
+          key={`list-${fact.id}`}
           funFact={fact}
           theme={theme}
           fontFamily={fontFamily}

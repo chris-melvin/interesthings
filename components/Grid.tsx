@@ -15,7 +15,7 @@ const Grid = ({
     <div className="grid grid-cols-autofit max-w-screen-lg mx-auto gap-4">
       {funFact.map((fact) => (
         <FunFactCard
-          key={fact.id}
+          key={`grid-${fact.id}`}
           theme={theme}
           fontFamily={fontFamily}
           funFact={fact}
