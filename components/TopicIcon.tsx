@@ -15,7 +15,6 @@ import {
   Microscope,
   Rocket,
   Shapes,
-  Sword,
   TreePine,
   Users,
   Zap,

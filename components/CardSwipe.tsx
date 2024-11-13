@@ -1,6 +1,6 @@
 import { Fact } from "@/types/Facts";
 import { Theme } from "@/types/theme";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import FunFactCard from "./FunFactCard";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
@@ -42,7 +42,7 @@ const CardSwipe = ({
     setOffsetX(currentX - startX);
   };
 
-  const handleDragEnd = () => {
+  const handleDragEnd = useCallback(() => {
     setIsDragging(false);
     if (offsetX > 100) {
       onSwipeRight();
@@ -50,7 +50,7 @@ const CardSwipe = ({
       onSwipeLeft();
     }
     setOffsetX(0);
-  };
+  }, [offsetX, onSwipeRight, onSwipeLeft]);
 
   useEffect(() => {
     const handleMouseUp = () => handleDragEnd();
@@ -58,7 +58,7 @@ const CardSwipe = ({
     return () => {
       document.removeEventListener("mouseup", handleMouseUp);
     };
-  }, [offsetX, handleDragEnd]);
+  }, [handleDragEnd]);
   return (
     <div
       ref={cardRef}
@@ -114,7 +114,7 @@ const CardStack = ({
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [handleSwipeLeft, handleSwipeRight]);
+  }, [handleSwipeLeft, handleSwipeRight, handleKeyDown]);
 
   return (
     <div className="relative flex justify-center items-center h-80  overflow-hidden">
