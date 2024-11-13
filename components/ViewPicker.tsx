@@ -1,6 +1,6 @@
 import { Theme } from "@/types/theme";
 import { ArrowRightLeft, Grid, List } from "lucide-react";
-import React from "react";
+import React, { useEffect } from "react";
 
 interface ViewPickerProps {
   currentView: "grid" | "list" | "swipe";
@@ -13,6 +13,23 @@ const ViewPicker: React.FC<ViewPickerProps> = ({
   onViewChange,
   theme,
 }) => {
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768 && currentView !== "list") {
+        onViewChange("list");
+      }
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, [currentView, onViewChange]);
+
   return (
     <div className="flex space-x-4">
       <button

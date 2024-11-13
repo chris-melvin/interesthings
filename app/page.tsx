@@ -13,7 +13,7 @@ import AboutSection from "@/components/AboutSection";
 export default function Home() {
   const [theme, setTheme] = useState<Theme>({
     bgColor: "#121212",
-    pageBGColor: "#141414",
+    pageBGColor: "#121212ee",
     textColor: "#fff",
     borderColor: "#242424",
     hoverColor: "#242424",

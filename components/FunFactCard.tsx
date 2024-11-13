@@ -2,6 +2,7 @@ import { Fact } from "@/types/Facts";
 import { Theme } from "@/types/theme";
 import { animated, useSpring } from "@react-spring/web";
 import { useState } from "react";
+import { TopicIcon, TopicKey } from "./TopicIcon";
 
 interface FunFactCardProps {
   theme: Theme;
@@ -60,6 +61,10 @@ const FunFactCard: React.FC<FunFactCardProps> = ({
           >
             {funFact.fact}
           </h3>
+          <TopicIcon
+            topic={funFact.topic as TopicKey}
+            color={theme.textColor}
+          />
         </div>
       </animated.div>
 
